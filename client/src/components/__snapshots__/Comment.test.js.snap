@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<li
+  className="MuiListItem-root-1 MuiListItem-default-4 MuiListItem-dense-5 MuiListItem-gutters-9 MuiListItem-alignItemsFlexStart-6"
+  disabled={false}
+>
+  <div
+    className="MuiAvatar-root-16 MuiListItemAvatar-alignItemsFlexStart-14"
+  >
+    <img
+      alt="Pedro"
+      className="MuiAvatar-img-18"
+      src="https://source.unsplash.com/2ShvY8Lf6l0/800x599"
+    />
+  </div>
+  <div
+    className="MuiListItemText-root-19"
+  >
+    <span
+      className="MuiTypography-root-25 MuiTypography-subheading-32 MuiListItemText-primary-22"
+    >
+      Pedro
+    </span>
+    <p
+      className="MuiTypography-root-25 MuiTypography-body1-34 MuiTypography-colorTextSecondary-58 MuiListItemText-secondary-23"
+    >
+      <span
+        className="MuiTypography-root-25 MuiTypography-body1-34 MuiTypography-colorTextPrimary-57 MuiTypography-inline-60"
+      >
+        This is a good message
+      </span>
+      <br />
+      2019-3-21 12:00:00
+    </p>
+  </div>
+</li>
+`;

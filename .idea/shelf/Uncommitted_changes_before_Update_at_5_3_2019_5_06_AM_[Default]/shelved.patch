@@ -1,0 +1,13 @@
+Index: s3Credentials.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- s3Credentials.json	(date 1556868113906)
++++ s3Credentials.json	(date 1556868113906)
+@@ -0,0 +1,4 @@
++{
++  "access_key_id" : "AKIAQC3BLKHQIMXGPEKU",
++  "secret_access_key" : "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"
++}
+\ No newline at end of file

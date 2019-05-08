@@ -1,0 +1,36 @@
+{
+  "name": "photo-sharing-app",
+  "description": "Flask-powered server for deployment of AngularJS client for Software Testing Project.",
+  "main": "index.js",
+  "authors": [
+    "Luis Rivera <luis.rivera157@upr.edu>",
+    "Ariel Silva <ariel.silva@upr.edu>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/UPRM-INSO4117-S19/testingproject-luis-ariel",
+  "dependencies": {
+    "angular": "1.7.7",
+    "jQuery": "3.3.1",
+    "jquery-ui": "",
+    "jquery-easing-original": "",
+    "requirejs": "2.3.3",
+    "angular-ui-router": "1.0.20",
+    "angular-material": "1.1.10",
+    "angular-cookies": "1.7.5",
+    "animate.css": "",
+    "angular-scroll-animate":"",
+    "bootstrap": "4.0.0",
+    "aos": "",
+    "karma":"",
+    "karma-jasmine":"",
+    "jasmine-core": "",
+    "karma-chrome-launcher": "",
+    "angular-mocks": "",
+    "jquery.easing": "",
+    "lightbox2": "",
+    "font-awesome": "5.0.8"
+  },
+  "resolutions": {
+    "angular": "1.7.7"
+  }
+}

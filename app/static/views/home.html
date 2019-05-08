@@ -1,0 +1,193 @@
+<div class="container-fluid gallery-lightbox my-5">
+    <div  class="row m-0">
+        <!--<md-virtual-repeat-container>-->
+        <div ng-repeat="sec in sections" class="col-lg-2 col-md-2 col-sm-3 p-0 snap-img">
+            <!--<md-virtual-repeat-container>-->
+            <div  ng-repeat="im in sec" class=" " >
+                <div  class="gallery_effect not-visible im"  when-visible="animateElementIn"  when-not-visible="animateElementOut">
+                    <a ng-href="{{im}}" href="" ng-click="show($event, im)" class="gallery-lightbox hover08">
+                        <figure> <img ng-src="{{im}}"  alt=" " class="img-fluid"> </figure>
+                    </a>
+                </div>
+
+            </div>
+            <!--</md-virtual-repeat-container>-->
+        </div>
+        <!--</md-virtual-repeat-container>-->
+
+
+
+    </div>
+
+</div>
+
+<div class="md-dialog-container" id="myDialog" ng-show="showing" style="position: center" >
+    <md-dialog aria-label="picture" layout-padding style="position: fixed; text-align: center; max-height: 100%" >
+        <md-toolbar style="background-color: #007cc0">
+            <div class="md-toolbar-tools" >
+                <h2> Caption this</h2>
+                <span flex></span>
+                <md-button class="md-raised md-icon-button" ng-click="cancel()">
+                    <i class="material-icons">edit</i>
+                </md-button>
+                <md-button class="md-raised md-icon-button" ng-click="cancel()">
+                    <i class="material-icons">close</i>
+                </md-button>
+            </div>
+        </md-toolbar>
+        <md-dialog-content  layout="row" >
+
+
+            <md-content>
+                <div id="dt"  layout="column">
+                    <img  style="max-width: 100%" ng-src="{{current}}">
+                    <p style="text-align: left">
+                        This is a caption too.<br>
+                        Uploaded by lgrs05 on 03/21/18
+                    </p>
+                </div>
+            </md-content>
+
+            <md-content  flex="grow" layout="column" >
+                <!--<div layout="column">-->
+                <md-subheader class="md-no-sticky" style="text-align: left">Comments</md-subheader>
+
+                <md-content id="comments">
+                    <md-divider></md-divider>
+                    <md-list>
+                        <md-list-item class="md-2-line" ng-click="null">
+                            <div class="md-list-item-text" layout="column" style="text-align: left">
+                                <h4>John Smith</h4>
+                                <p>Some Text</p>
+                            </div>
+                        </md-list-item>
+                        <md-list-item style="text-align: left;"class="md-2-line" ng-click="null">
+                            <div class="md-list-item-text" layout="column" style="text-align: left">
+                                <h4>John Smith</h4>
+                                <p>Some Text</p>
+                            </div>
+                        </md-list-item>
+                        <md-list-item class="md-2-line" ng-click="null">
+                            <div class="md-list-item-text" layout="column" style="text-align: left">
+                                <h4>John Smith</h4>
+                                <p>Some Text</p>
+                            </div>
+                        </md-list-item>
+                        <md-list-item class="md-2-line" ng-click="null">
+                            <div class="md-list-item-text" layout="column" style="text-align: left">
+                                <h4>John Smith</h4>
+                                <p>Some Text</p>
+                            </div>
+                        </md-list-item>
+                        <md-list-item class="md-2-line" ng-click="null">
+                            <div class="md-list-item-text" layout="column" style="text-align: left">
+                                <h4>John Smith</h4>
+                                <p>Some Text</p>
+                            </div>
+                        </md-list-item>
+                        <md-list-item class="md-2-line" ng-click="null">
+                            <div class="md-list-item-text" layout="column" style="text-align: left">
+                                <h4>John Smith</h4>
+                                <p>Some Text</p>
+                            </div>
+                        </md-list-item>
+                        <md-list-item class="md-2-line" ng-click="null">
+                            <div class="md-list-item-text" layout="column" style="text-align: left">
+                                <h4>John Smith</h4>
+                                <p>Some Text</p>
+                            </div>
+                        </md-list-item>
+                        <md-list-item style="text-align: left;"class="md-2-line" ng-click="null">
+                            <div class="md-list-item-text" layout="column" style="text-align: left">
+                                <h4>John Smith</h4>
+                                <p>Some Text</p>
+                            </div>
+                        </md-list-item>
+                        <md-list-item class="md-2-line" ng-click="null">
+                            <div class="md-list-item-text" layout="column" style="text-align: left">
+                                <h4>John Smith</h4>
+                                <p>Some Text</p>
+                            </div>
+                        </md-list-item>
+                        <md-list-item class="md-2-line" ng-click="null">
+                            <div class="md-list-item-text" layout="column" style="text-align: left">
+                                <h4>John Smith</h4>
+                                <p>Some Text</p>
+                            </div>
+                        </md-list-item>
+                        <md-list-item class="md-2-line" ng-click="null">
+                            <div class="md-list-item-text" layout="column" style="text-align: left">
+                                <h4>John Smith</h4>
+                                <p>Some Text</p>
+                            </div>
+                        </md-list-item>
+                        <md-list-item class="md-2-line" ng-click="null">
+                            <div class="md-list-item-text" layout="column" style="text-align: left">
+                                <h4>John Smith</h4>
+                                <p>Some Text</p>
+                            </div>
+                        </md-list-item>
+                        <md-list-item class="md-2-line" ng-click="null">
+                            <div class="md-list-item-text" layout="column" style="text-align: left">
+                                <h4>John Smith</h4>
+                                <p>Some Text</p>
+                            </div>
+                        </md-list-item>
+                        <md-list-item style="text-align: left;"class="md-2-line" ng-click="null">
+                            <div class="md-list-item-text" layout="column" style="text-align: left">
+                                <h4>John Smith</h4>
+                                <p>Some Text</p>
+                            </div>
+                        </md-list-item>
+                        <md-list-item class="md-2-line" ng-click="null">
+                            <div class="md-list-item-text" layout="column" style="text-align: left">
+                                <h4>John Smith</h4>
+                                <p>Some Text</p>
+                            </div>
+                        </md-list-item>
+                        <md-list-item class="md-2-line" ng-click="null">
+                            <div class="md-list-item-text" layout="column" style="text-align: left">
+                                <h4>John Smith</h4>
+                                <p>Some Text</p>
+                            </div>
+                        </md-list-item>
+                        <md-list-item class="md-2-line" ng-click="null">
+                            <div class="md-list-item-text" layout="column" style="text-align: left">
+                                <h4>John Smith</h4>
+                                <p>Some Text</p>
+                            </div>
+                        </md-list-item>
+                        <md-list-item class="md-2-line" ng-click="null">
+                            <div class="md-list-item-text" layout="column" style="text-align: left">
+                                <h4>John Smith</h4>
+                                <p>Some Text</p>
+                            </div>
+                        </md-list-item>
+                    </md-list>
+                </md-content>
+                <form layout="row" name="frm" flex layout-align="start start">
+                    <div layout="column" flex >
+                        <md-input-container >
+                            <textarea  aria-label="cText" name="comm" ng-model="cmmnt"  md-maxlength="255" style="max-height: 100px; overflow-y: scroll" ></textarea>
+                            <div ng-messages="frm.comm.$error" >
+                                <div ng-message="md-maxlength">That's too long!</div>
+                            </div>
+                        </md-input-container>
+
+                        <div layout="row" layout-align="end start">
+                            <md-button   class="md-raised md-icon-button" style="background-color: #007cc0; color: white;">
+                                <i class="material-icons">send</i>
+                            </md-button>
+                        </div>
+                    </div>
+
+                </form>
+
+
+
+                <!--</div>-->
+            </md-content>
+        </md-dialog-content>
+
+    </md-dialog>
+</div>

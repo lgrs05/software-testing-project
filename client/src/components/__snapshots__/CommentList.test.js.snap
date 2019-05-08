@@ -1,0 +1,144 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<ul
+  className="MuiList-root-2 MuiList-padding-3 CommentList-root-1"
+>
+  <li
+    className="MuiListItem-root-6 MuiListItem-default-9 MuiListItem-dense-10 MuiListItem-gutters-14 MuiListItem-alignItemsFlexStart-11"
+    disabled={false}
+  >
+    <div
+      className="MuiAvatar-root-21 MuiListItemAvatar-alignItemsFlexStart-19"
+    >
+      <img
+        alt="Pedro"
+        className="MuiAvatar-img-23"
+        src="https://source.unsplash.com/2ShvY8Lf6l0/800x599"
+      />
+    </div>
+    <div
+      className="MuiListItemText-root-24"
+    >
+      <span
+        className="MuiTypography-root-30 MuiTypography-subheading-37 MuiListItemText-primary-27"
+      >
+        Pedro
+      </span>
+      <p
+        className="MuiTypography-root-30 MuiTypography-body1-39 MuiTypography-colorTextSecondary-63 MuiListItemText-secondary-28"
+      >
+        <span
+          className="MuiTypography-root-30 MuiTypography-body1-39 MuiTypography-colorTextPrimary-62 MuiTypography-inline-65"
+        >
+          This is a good message
+        </span>
+        <br />
+        2019-3-21 12:00:00
+      </p>
+    </div>
+  </li>
+  <li
+    className="MuiListItem-root-6 MuiListItem-default-9 MuiListItem-dense-10 MuiListItem-gutters-14 MuiListItem-alignItemsFlexStart-11"
+    disabled={false}
+  >
+    <div
+      className="MuiAvatar-root-21 MuiListItemAvatar-alignItemsFlexStart-19"
+    >
+      <img
+        alt="Pedro Vazquez"
+        className="MuiAvatar-img-23"
+        src="https://source.unsplash.com/2ShvY8Lf6l0/800x599"
+      />
+    </div>
+    <div
+      className="MuiListItemText-root-24"
+    >
+      <span
+        className="MuiTypography-root-30 MuiTypography-subheading-37 MuiListItemText-primary-27"
+      >
+        Pedro Vazquez
+      </span>
+      <p
+        className="MuiTypography-root-30 MuiTypography-body1-39 MuiTypography-colorTextSecondary-63 MuiListItemText-secondary-28"
+      >
+        <span
+          className="MuiTypography-root-30 MuiTypography-body1-39 MuiTypography-colorTextPrimary-62 MuiTypography-inline-65"
+        >
+          This is a great message
+        </span>
+        <br />
+        2019-3-21 12:00:00
+      </p>
+    </div>
+  </li>
+  <li
+    className="MuiListItem-root-6 MuiListItem-default-9 MuiListItem-dense-10 MuiListItem-gutters-14 MuiListItem-alignItemsFlexStart-11"
+    disabled={false}
+  >
+    <div
+      className="MuiAvatar-root-21 MuiListItemAvatar-alignItemsFlexStart-19"
+    >
+      <img
+        alt="Pedro Santiago"
+        className="MuiAvatar-img-23"
+        src="https://source.unsplash.com/2ShvY8Lf6l0/800x599"
+      />
+    </div>
+    <div
+      className="MuiListItemText-root-24"
+    >
+      <span
+        className="MuiTypography-root-30 MuiTypography-subheading-37 MuiListItemText-primary-27"
+      >
+        Pedro Santiago
+      </span>
+      <p
+        className="MuiTypography-root-30 MuiTypography-body1-39 MuiTypography-colorTextSecondary-63 MuiListItemText-secondary-28"
+      >
+        <span
+          className="MuiTypography-root-30 MuiTypography-body1-39 MuiTypography-colorTextPrimary-62 MuiTypography-inline-65"
+        >
+          This is a bad message
+        </span>
+        <br />
+        2019-3-21 12:00:00
+      </p>
+    </div>
+  </li>
+  <li
+    className="MuiListItem-root-6 MuiListItem-default-9 MuiListItem-dense-10 MuiListItem-gutters-14 MuiListItem-alignItemsFlexStart-11"
+    disabled={false}
+  >
+    <div
+      className="MuiAvatar-root-21 MuiListItemAvatar-alignItemsFlexStart-19"
+    >
+      <img
+        alt="Pedro Rivera"
+        className="MuiAvatar-img-23"
+        src="https://source.unsplash.com/2ShvY8Lf6l0/800x599"
+      />
+    </div>
+    <div
+      className="MuiListItemText-root-24"
+    >
+      <span
+        className="MuiTypography-root-30 MuiTypography-subheading-37 MuiListItemText-primary-27"
+      >
+        Pedro Rivera
+      </span>
+      <p
+        className="MuiTypography-root-30 MuiTypography-body1-39 MuiTypography-colorTextSecondary-63 MuiListItemText-secondary-28"
+      >
+        <span
+          className="MuiTypography-root-30 MuiTypography-body1-39 MuiTypography-colorTextPrimary-62 MuiTypography-inline-65"
+        >
+          This is an awesome message
+        </span>
+        <br />
+        2019-3-21 12:00:00
+      </p>
+    </div>
+  </li>
+</ul>
+`;

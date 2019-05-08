@@ -1,0 +1,118 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`About renders correctly 1`] = `
+<div
+  className="About"
+>
+  <section
+    style={
+      Object {
+        "backgroundImage": "url(background4.jpg)",
+        "backgroundSize": "auto",
+        "height": "650px",
+        "width": "100%",
+      }
+    }
+  />
+  <h1>
+    About
+  </h1>
+  <h2>
+    Start sharing moments with Slika Share today! On
+  </h2>
+  <h2>
+    Slika Share you can upload and post photos, comment
+  </h2>
+  <h2>
+    on friends photos and even share them.
+  </h2>
+  <div
+    className="about1"
+  >
+    <img
+      alt={
+        Object {
+          "backgroundImage": "url(circleabout1.png)",
+          "height": "100px",
+          "width": "100px",
+        }
+      }
+      src="circleabout1.png"
+    />
+    <span>
+      Post Moments
+    </span>
+  </div>
+  <div
+    className="about3"
+  >
+    <img
+      alt={
+        Object {
+          "backgroundImage": "url(circleabout5.png)",
+          "height": "100px",
+          "width": "100px",
+        }
+      }
+      src="circleabout5.png"
+    />
+    <span>
+      Share Moments
+    </span>
+  </div>
+  <div
+    className="about2"
+  >
+    <img
+      alt={
+        Object {
+          "backgroundImage": "url(circleabout2.png)",
+          "height": "100px",
+          "width": "100px",
+        }
+      }
+      src="circleabout2.png"
+    />
+    <span>
+      Say something
+    </span>
+  </div>
+</div>
+`;
+
+exports[`renders correctly 1`] = `
+<li
+  className="MuiListItem-root-1 MuiListItem-default-4 MuiListItem-dense-5 MuiListItem-gutters-9 MuiListItem-alignItemsFlexStart-6"
+  disabled={false}
+>
+  <div
+    className="MuiAvatar-root-16 MuiListItemAvatar-alignItemsFlexStart-14"
+  >
+    <img
+      alt="Pedro"
+      className="MuiAvatar-img-18"
+      src="https://source.unsplash.com/2ShvY8Lf6l0/800x599"
+    />
+  </div>
+  <div
+    className="MuiListItemText-root-19"
+  >
+    <span
+      className="MuiTypography-root-25 MuiTypography-subheading-32 MuiListItemText-primary-22"
+    >
+      Pedro
+    </span>
+    <p
+      className="MuiTypography-root-25 MuiTypography-body1-34 MuiTypography-colorTextSecondary-58 MuiListItemText-secondary-23"
+    >
+      <span
+        className="MuiTypography-root-25 MuiTypography-body1-34 MuiTypography-colorTextPrimary-57 MuiTypography-inline-60"
+      >
+        This is a good message
+      </span>
+      <br />
+      2019-3-21 12:00:00
+    </p>
+  </div>
+</li>
+`;

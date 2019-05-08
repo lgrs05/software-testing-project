@@ -1,0 +1,1530 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoTestManager">
+    <enabled-run-configurations>
+      <run-configuration type="JavaScriptTestRunnerKarma" name="tests" />
+      <run-configuration type="JavaScriptTestRunnerKarma" name="karma.conf.js" />
+    </enabled-run-configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="447c72e5-c87a-4cc4-a22b-00a1c257a073" name="Default" comment="" />
+    <list id="651b9087-b635-46a5-9622-9981f6634971" name="testingproject-luis-ariel-4 Initial Commit" comment="testingproject-luis-ariel-4 Initial Commit Resolved" />
+    <list id="0aa5ffd4-1d6f-497e-9323-f72f8e1cb8ca" name="Home Page" comment="Home Page - added angular scroll animation dependency - implemented static dialog with comments and captions with AngularJS Material" />
+    <ignored path="C:\Users\luisr\PycharmProjects\testingproject-luis-ariel\.idea\shelf/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/testingproject_luis_ariel$run.coverage" NAME="run Coverage Results" MODIFIED="1557348266332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/testingproject_luis_ariel$build.coverage" NAME="build Coverage Results" MODIFIED="1557092813261" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/testingproject_luis_ariel$Flask__app___init___py_.coverage" NAME="Flask (app/__init__.py) Coverage Results" MODIFIED="1554623396419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/testingproject_luis_ariel$clean.coverage" NAME="clean Coverage Results" MODIFIED="1554703966490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/testingproject_luis_ariel$install.coverage" NAME="install Coverage Results" MODIFIED="1557092817017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/testingproject_luis_ariel$setup.coverage" NAME="build Coverage Results" MODIFIED="1551574471150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="app" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="app" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="app" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="app: database" type="6d9b600a:PostgresImplModel$Database" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="app" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="app: database" type="6d9b600a:PostgresImplModel$Database" />
+        <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="app" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="app: database" type="6d9b600a:PostgresImplModel$Database" />
+        <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="app" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="app: database" type="6d9b600a:PostgresImplModel$Database" />
+        <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="captions: table" type="a93d6ac6:PostgresImplModel$LocalTable" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+            <file leaf-file-name="photos_model.py" pinned="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/app/models/photos_model.py">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="187">
+                    <caret line="12" column="69" selection-start-line="12" selection-start-column="69" selection-end-line="12" selection-end-column="69" />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file leaf-file-name="owned_photos_model.py" pinned="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/app/models/owned_photos_model.py">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="51">
+                    <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file leaf-file-name="caption_model.py" pinned="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/app/models/caption_model.py">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="340">
+                    <caret line="21" selection-start-line="21" selection-end-line="21" />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file leaf-file-name="comments_model.py" pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/app/models/comments_model.py">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="170">
+                    <caret line="10" column="51" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
+                    <folding>
+                      <element signature="e#0#18#0" expanded="true" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file leaf-file-name="comments_controller.py" pinned="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/app/controllers/comments_controller.py">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="51">
+                    <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+                    <folding>
+                      <element signature="e#0#56#0" expanded="true" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file leaf-file-name="shared_photos_model.py" pinned="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/app/models/shared_photos_model.py">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="51">
+                    <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="AuthDialog.test.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/components/AuthDialog.test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="71" column="14" selection-start-line="71" selection-start-column="8" selection-end-line="71" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#33#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PhotoGallery.test.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/components/PhotoGallery.test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="202" column="6" selection-start-line="202" selection-start-column="6" selection-end-line="202" selection-end-column="6" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddPhotoDialog.test.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client/src/components/AddPhotoDialog.test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="46" column="7" lean-forward="true" selection-start-line="46" selection-start-column="7" selection-end-line="46" selection-end-column="7" />
+              <folding>
+                <element signature="e#0#33#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppToolbar.test.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/components/AppToolbar.test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="439">
+              <caret line="50" column="106" selection-start-line="50" selection-start-column="106" selection-end-line="50" selection-end-column="106" />
+              <folding>
+                <element signature="e#0#33#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="caption_controller.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/caption_controller.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="3" column="75" selection-start-line="3" selection-start-column="75" selection-end-line="3" selection-end-column="75" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AuthDialog.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/components/AuthDialog.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="354">
+              <caret line="39" column="2" selection-start-line="39" selection-start-column="2" selection-end-line="39" selection-end-column="2" />
+              <folding>
+                <element signature="e#32#70#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Home.test.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/components/Home.test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Comment.test.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/components/Comment.test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="auth_controller.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/auth_controller.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="292">
+              <caret line="103" column="5" selection-start-line="103" selection-start-column="5" selection-end-line="103" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>rout</find>
+      <find>r</find>
+      <find>len</find>
+      <find>react-router</find>
+      <find>link</find>
+      <find>anch</find>
+      <find>route</find>
+      <find>history</find>
+      <find>onCHan</find>
+      <find>onChange</find>
+      <find>onCh</find>
+      <find>test</find>
+      <find>update</find>
+      <find>updateCaption</find>
+      <find>ph</find>
+      <find>.caption</find>
+      <find>ign</find>
+      <find>entry</find>
+      <find>last</find>
+      <find>photo</find>
+      <find>added</find>
+      <find>axios.post('/auth</find>
+      <find>axios.post('/</find>
+      <find>login</find>
+      <find>searc</find>
+      <find>share_</find>
+      <find>user</find>
+      <find>app.controller</find>
+      <find>key</find>
+      <find>log</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>static/</replace>
+      <replace>/static/images/</replace>
+      <replace>auth</replace>
+      <replace>Auth</replace>
+      <replace>Shared</replace>
+      <replace>Profile</replace>
+      <replace>profile</replace>
+      <replace>shared</replace>
+      <replace>$scope.s</replace>
+      <replace>$scope.ima</replace>
+      <replace />
+      <replace>left</replace>
+      <replace>self</replace>
+      <replace>owned_photo_id</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="UPDATE_CHANGES_POLICY" value="SHELVE" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="phase3CaptionController" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/controllers/owned_photos_controller.py" />
+        <option value="$PROJECT_DIR$/app/models/owned_photos_model.py" />
+        <option value="$PROJECT_DIR$/app/models/comments_model.py" />
+        <option value="$PROJECT_DIR$/app/models/photos_model.py" />
+        <option value="$PROJECT_DIR$/app/models/base.py" />
+        <option value="$PROJECT_DIR$/app/models/caption_model.py" />
+        <option value="$PROJECT_DIR$/app/models/shared_photos_model.py" />
+        <option value="$PROJECT_DIR$/client/.eslintignore" />
+        <option value="$PROJECT_DIR$/client/.babelrc" />
+        <option value="$PROJECT_DIR$/client/config/webpack.config.js" />
+        <option value="$PROJECT_DIR$/app/models/auth_model.py" />
+        <option value="$PROJECT_DIR$/client/src/containers/SharedWithMeContainer.js" />
+        <option value="$PROJECT_DIR$/.aws/config" />
+        <option value="$PROJECT_DIR$/s3Credentials.txt" />
+        <option value="$PROJECT_DIR$/client/src/containers/CommentsDialogContainer.js" />
+        <option value="$PROJECT_DIR$/app/controllers/shared_with_me_controller.py" />
+        <option value="$PROJECT_DIR$/client/src/components/AppToolbar.js" />
+        <option value="$PROJECT_DIR$/client/src/components/AddPhotoDialog.js" />
+        <option value="$PROJECT_DIR$/s3Credentials.json" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/client/src/containers/HomeContainer.js" />
+        <option value="$PROJECT_DIR$/app/controllers/caption_controller.py" />
+        <option value="$PROJECT_DIR$/.aws/s3Credentials.json" />
+        <option value="$PROJECT_DIR$/.aws/dbCredentials.json" />
+        <option value="$PROJECT_DIR$/.aws/credentials" />
+        <option value="$PROJECT_DIR$/app/controllers/home_controller.py" />
+        <option value="$PROJECT_DIR$/app/controllers/comments_controller.py" />
+        <option value="$PROJECT_DIR$/app/controllers/auth_controller.py" />
+        <option value="$PROJECT_DIR$/client/src/components/App.js" />
+        <option value="$PROJECT_DIR$/app/tests/test_normal.py" />
+        <option value="$PROJECT_DIR$/app/test_normal.py" />
+        <option value="$PROJECT_DIR$/app/tests/factories.py" />
+        <option value="$PROJECT_DIR$/app/models/__init__.py" />
+        <option value="$PROJECT_DIR$/app/controllers/__init__.py" />
+        <option value="$PROJECT_DIR$/app/__init__.py" />
+        <option value="$PROJECT_DIR$/setup.py" />
+        <option value="$PROJECT_DIR$/tests/__init__.py" />
+        <option value="$PROJECT_DIR$/tests/test_comments.py" />
+        <option value="$PROJECT_DIR$/app/base.py" />
+        <option value="$PROJECT_DIR$/tests/factories.py" />
+        <option value="$PROJECT_DIR$/app/config.py" />
+        <option value="$PROJECT_DIR$/config.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/client/src/components/Search.js" />
+        <option value="$PROJECT_DIR$/client/src/components/AppToolbar.test.js" />
+        <option value="$PROJECT_DIR$/client/src/components/AuthDialog.test.js" />
+        <option value="$PROJECT_DIR$/client/src/components/PhotoGallery.js" />
+        <option value="$PROJECT_DIR$/client/src/components/ShareDialog.js" />
+        <option value="$PROJECT_DIR$/client/src/components/PhotoGallery.test.js" />
+        <option value="$PROJECT_DIR$/client/src/components/CommentsDialog.js" />
+        <option value="$PROJECT_DIR$/client/src/components/AuthDialog.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBowerSettings">
+    <node-interpreter value="project" />
+    <bower-package value="$USER_HOME$/AppData/Roaming/npm/node_modules/bower" />
+    <bower.json value="$PROJECT_DIR$/bower.json" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-15" />
+    <option name="width" value="1950" />
+    <option name="height" value="1970" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="testingproject-luis-ariel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testingproject-luis-ariel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testingproject-luis-ariel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testingproject-luis-ariel" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testingproject-luis-ariel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testingproject-luis-ariel" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testingproject-luis-ariel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testingproject-luis-ariel" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testingproject-luis-ariel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testingproject-luis-ariel" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testingproject-luis-ariel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testingproject-luis-ariel" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="testingproject-luis-ariel-4 Initial Commit">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="testingproject-luis-ariel" type="cbb8eebc:String" user="testingproject-luis-ariel" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="PostgreSQL" />
+    <property name="javascript.karma.karma_node_package_dir" value="" />
+    <property name="js.last.introduce.type" value="CONST" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="C:\Users\luisr\PycharmProjects\testingproject-luis-ariel\node_modules\eslint" />
+    <property name="node.js.selected.package.standard" value="C:\Users\luisr\PycharmProjects\testingproject-luis-ariel\node_modules\eslint" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="tasks.open.task.update.state.enabled" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\luisr\PycharmProjects\testingproject-luis-ariel" />
+      <recent name="C:\Users\luisr\PycharmProjects\testingproject-luis-ariel\app" />
+      <recent name="C:\Users\luisr\PycharmProjects\testingproject-luis-ariel\.aws" />
+      <recent name="C:\Users\luisr\PycharmProjects\testingproject-luis-ariel\app\controllers" />
+      <recent name="C:\Users\luisr\PycharmProjects\testingproject-luis-ariel\client\src\containers" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\luisr\PycharmProjects\testingproject-luis-ariel\app" />
+      <recent name="C:\Users\luisr\PycharmProjects\testingproject-luis-ariel\client\src\components" />
+      <recent name="C:\Users\luisr\PycharmProjects\testingproject-luis-ariel\app\controllers" />
+      <recent name="C:\Users\luisr\PycharmProjects\testingproject-luis-ariel\app\models" />
+      <recent name="C:\Users\luisr\PycharmProjects\testingproject-luis-ariel\client\src\containers" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.run">
+    <configuration name="Testing AddPhotoDialog (1)" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <working-dir value="$PROJECT_DIR$/client/src/components" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/client/src/components/AddPhotoDialog.test.js" />
+      <test-names>
+        <test-name value="Testing AddPhotoDialog" />
+      </test-names>
+    </configuration>
+    <configuration name="Testing AddPhotoDialog" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <working-dir value="$PROJECT_DIR$/client/src/components" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/client/src/components/AuthDialog.test.js" />
+      <test-names>
+        <test-name value="Testing AddPhotoDialog" />
+      </test-names>
+    </configuration>
+    <configuration name="Unnamed" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <config-file value="$PROJECT_DIR$/client/config/jest/fileTransform.js" />
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="ALL" />
+    </configuration>
+    <configuration name="renders without crashing" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <working-dir value="$PROJECT_DIR$/client/src/components" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/client/src/components/PhotoGallery.test.js" />
+      <test-names>
+        <test-name value="renders without crashing" />
+      </test-names>
+    </configuration>
+    <configuration name="tests" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="$PROJECT_DIR$/karma.conf.js" />
+      <karma-package-dir value="$PROJECT_DIR$/app/static/bower_components/karma" />
+      <node-interpreter value="project" />
+      <envs />
+    </configuration>
+    <configuration name="build" type="PythonConfigurationType" factoryName="Python">
+      <module name="testingproject-luis-ariel" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/setup.py" />
+      <option name="PARAMETERS" value="build" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="clean" type="PythonConfigurationType" factoryName="Python">
+      <module name="testingproject-luis-ariel" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\luisr\AppData\Local\Programs\Python\Python35\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/setup.py" />
+      <option name="PARAMETERS" value="clean" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="install" type="PythonConfigurationType" factoryName="Python">
+      <module name="testingproject-luis-ariel" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\luisr\AppData\Local\Programs\Python\Python35\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/setup.py" />
+      <option name="PARAMETERS" value="install" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="testingproject-luis-ariel" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="Flask (app/__init__.py)" type="Python.FlaskServer" factoryName="Flask server" temporary="true" nameIsGenerated="true">
+      <module name="testingproject-luis-ariel" />
+      <option name="target" value="$PROJECT_DIR$/app/__init__.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+    </configuration>
+    <configuration name="All Tests" type="js.build_tools.npm" factoryName="npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="test" />
+      <node-interpreter value="project" />
+      <envs />
+    </configuration>
+    <configuration name="Unnamed" type="js.build_tools.npm" factoryName="npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="test" />
+      <arguments value="$PROJECT_DIR$/client/src/components/AppToolbar.test.js" />
+      <node-interpreter value="project" />
+      <envs />
+    </configuration>
+    <list>
+      <item itemvalue="Jest.Unnamed" />
+      <item itemvalue="Karma.tests" />
+      <item itemvalue="npm.All Tests" />
+      <item itemvalue="npm.Unnamed" />
+      <item itemvalue="Python.install" />
+      <item itemvalue="Python.build" />
+      <item itemvalue="Python.clean" />
+      <item itemvalue="Jest.renders without crashing" />
+      <item itemvalue="Python.run" />
+      <item itemvalue="Jest.Testing AddPhotoDialog" />
+      <item itemvalue="Jest.Testing AddPhotoDialog (1)" />
+      <item itemvalue="Flask server.Flask (app/__init__.py)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.run" />
+        <item itemvalue="Flask server.Flask (app/__init__.py)" />
+        <item itemvalue="Jest.Testing AddPhotoDialog (1)" />
+        <item itemvalue="Jest.Testing AddPhotoDialog" />
+        <item itemvalue="Jest.renders without crashing" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\luisr\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <branch name="master" repository="C:\Users\luisr\PycharmProjects\testingproject-luis-ariel" original="true" />
+      <branch name="Phase-1" repository="C:\Users\luisr\PycharmProjects\testingproject-luis-ariel" />
+      <changelist id="447c72e5-c87a-4cc4-a22b-00a1c257a073" name="Default" comment="" />
+      <created>1551545291913</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1556875633083</updated>
+    </task>
+    <task id="testingproject-luis-ariel-4" summary="Initial Commit">
+      <branch name="master" repository="C:\Users\luisr\PycharmProjects\testingproject-luis-ariel" />
+      <changelist id="651b9087-b635-46a5-9622-9981f6634971" name="testingproject-luis-ariel-4 Initial Commit" comment="testingproject-luis-ariel-4 Initial Commit Resolved" />
+      <option name="closed" value="true" />
+      <created>1551609186000</created>
+      <option name="issue" value="true" />
+      <url>https://github.com/UPRM-INSO4117-S19/testingproject-luis-ariel/issues/4</url>
+      <option name="number" value="4" />
+      <option name="presentableId" value="testingproject-luis-ariel-4" />
+      <option name="project" value="testingproject-luis-ariel" />
+      <option name="type" value="BUG" />
+      <updated>1551767023373</updated>
+    </task>
+    <task id="testingproject-luis-ariel-3" summary="Home Page">
+      <branch name="Phase-1" repository="C:\Users\luisr\PycharmProjects\testingproject-luis-ariel" original="true" />
+      <branch name="testingproject-luis-ariel-3" repository="C:\Users\luisr\PycharmProjects\testingproject-luis-ariel" />
+      <changelist id="0aa5ffd4-1d6f-497e-9323-f72f8e1cb8ca" name="Home Page" comment="" />
+      <created>1551609086000</created>
+      <option name="issue" value="true" />
+      <url>https://github.com/UPRM-INSO4117-S19/testingproject-luis-ariel/issues/3</url>
+      <option name="number" value="3" />
+      <option name="presentableId" value="testingproject-luis-ariel-3" />
+      <option name="project" value="testingproject-luis-ariel" />
+      <option name="type" value="BUG" />
+      <updated>1553073944495</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Home Page - added angular scroll animation dependency - implemented static dialog with comments and captions with AngularJS Material">
+      <created>1552171441738</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1552171441738</updated>
+    </task>
+    <task id="LOCAL-00002" summary="ReactJS Migration">
+      <created>1553074143617</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1553074143617</updated>
+    </task>
+    <task id="LOCAL-00003" summary="React Migration - fixed tests">
+      <created>1553078953058</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1553800146196</updated>
+    </task>
+    <task id="LOCAL-00004" summary="added auth dialogs, search bar, add photo, and shared with me buttons">
+      <created>1553800984248</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1553800984248</updated>
+    </task>
+    <task id="LOCAL-00005" summary="added about route">
+      <created>1553803746844</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1553803746844</updated>
+    </task>
+    <task id="LOCAL-00006" summary="fixed about background spacing and double toolbar">
+      <created>1553803906594</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1553803906594</updated>
+    </task>
+    <task id="LOCAL-00007" summary="removed links underlines">
+      <created>1553805440329</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1553805440329</updated>
+    </task>
+    <task id="LOCAL-00008" summary="phase 2 frontend">
+      <created>1554190250742</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1554190250742</updated>
+    </task>
+    <task id="LOCAL-00009" summary="added snapshots and background image">
+      <created>1554190428541</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1554190428541</updated>
+    </task>
+    <task id="LOCAL-00010" summary="backend setup">
+      <created>1554687281673</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1554687281673</updated>
+    </task>
+    <task id="LOCAL-00011" summary="backend setup">
+      <created>1556863568013</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1556863568013</updated>
+    </task>
+    <task id="LOCAL-00012" summary="gitignore update">
+      <created>1556864674752</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1556865267150</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Revert &quot;gitignore update&quot;&#10;&#10;This reverts commit 51380e5">
+      <created>1556864893818</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1556864893818</updated>
+    </task>
+    <task id="LOCAL-00014" summary="gitignore upd">
+      <created>1556866490532</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1556866490532</updated>
+    </task>
+    <task id="LOCAL-00015" summary="change caption integration">
+      <created>1556874324754</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1556875350161</updated>
+    </task>
+    <task id="LOCAL-00016" summary="change caption integration">
+      <created>1556875017494</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1556875632954</updated>
+    </task>
+    <task id="LOCAL-00017" summary="change caption">
+      <created>1556875977266</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1556875977266</updated>
+    </task>
+    <task id="LOCAL-00018" summary="change caption">
+      <created>1556876303086</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1556876303086</updated>
+    </task>
+    <task id="LOCAL-00019" summary="changed db config">
+      <created>1556885110335</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1556885110335</updated>
+    </task>
+    <task id="LOCAL-00020" summary="fixed config error">
+      <created>1557094218314</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1557094218314</updated>
+    </task>
+    <task id="LOCAL-00021" summary="db config">
+      <created>1557096831141</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1557096831141</updated>
+    </task>
+    <task id="LOCAL-00022" summary="last commit">
+      <created>1557353831301</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1557353831301</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
+    <servers>
+      <GitHub url="https://github.com">
+        <token>df9adfcedf9bdf9fdf9cdfcfdf9ddf99dfcedfccdf9edf98dfcbdfcfdfc9df9ddfc9dfc8dfcbdf99df9adf93df99dfccdfc8dfcfdf9bdf92df99dfc9df99dfc8df98df9ddf9fdfc8dfcbdfc8df92dfce</token>
+        <option name="preferredOpenTaskState">
+          <CustomTaskState id="RESOLVED" predefined="true" name="Resolved" />
+        </option>
+        <option name="repoAuthor" value="UPRM-INSO4117-S19" />
+        <option name="repoName" value="testingproject-luis-ariel" />
+      </GitHub>
+    </servers>
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Testing_CommentsDialog_(1) - 2019.03.31 at 05h 36m 33s.xml">
+      <configuration name="Testing CommentsDialog (1)" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="Testing_CommentsDialog_(2) - 2019.03.31 at 06h 06m 49s.xml">
+      <configuration name="Testing CommentsDialog (2)" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="Testing_CommentsDialog_(2) - 2019.03.31 at 06h 12m 50s.xml">
+      <configuration name="Testing CommentsDialog (2)" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="Testing_AddPhotoDialog - 2019.03.31 at 06h 47m 14s.xml">
+      <configuration name="Testing AddPhotoDialog" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="Testing_AddPhotoDialog - 2019.03.31 at 06h 50m 54s.xml">
+      <configuration name="Testing AddPhotoDialog" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="Testing_AddPhotoDialog - 2019.03.31 at 06h 55m 53s.xml">
+      <configuration name="Testing AddPhotoDialog" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="Testing_AddPhotoDialog_can_open_and_close_register_dialog - 2019.03.31 at 06h 56m 36s.xml">
+      <configuration name="Testing AddPhotoDialog.can open and close register dialog" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="Testing_AddPhotoDialog - 2019.03.31 at 06h 57m 28s.xml">
+      <configuration name="Testing AddPhotoDialog" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="Unnamed - 2019.04.01 at 20h 35m 53s.xml">
+      <configuration name="Unnamed" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="Testing_AddPhotoDialog_(1) - 2019.04.01 at 22h 33m 57s.xml">
+      <configuration name="Testing AddPhotoDialog (1)" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50838363" side_tool="true" weight="0.3371266" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49161637" weight="0.35561877" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.4896043" weight="0.18492177" />
+      <window_info anchor="bottom" id="Python Console" order="14" />
+      <window_info anchor="bottom" id="Terminal" order="13" sideWeight="0.49228707" weight="0.5151057" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28638497" />
+      <window_info anchor="bottom" id="YouTrack" order="0" weight="0.3264463" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="4" weight="0.24211939" />
+      <window_info anchor="right" id="SciView" order="5" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.4976526" visible="true" weight="0.35561877" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" id="R Graphics" order="3" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="R Packages" order="6" />
+      <window_info anchor="bottom" id="Messages" order="9" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="2" sideWeight="0.49966466" weight="0.6059744" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="phase3CaptionController" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="testingproject-luis-ariel-4 Initial Commit Resolved" />
+    <MESSAGE value="testingproject-luis-ariel-4 Initial Commit Resolved with tests directory" />
+    <MESSAGE value="testingproject-luis-ariel-4 Initial Commit Resolved with tests directory and dependencies" />
+    <MESSAGE value="testingproject-luis-ariel-4 Initial Commit Resolved karma.conf.js updated" />
+    <MESSAGE value="testingproject-luis-ariel-4 Initial Commit Resolved karma.conf.js" />
+    <MESSAGE value="testingproject-luis-ariel-4 Initial Commit Resolved app controller test" />
+    <MESSAGE value="Home Page - added angular scroll animation dependency - implemented static dialog with comments and captions with AngularJS Material" />
+    <MESSAGE value="ReactJS Migration" />
+    <MESSAGE value="React Migration - fixed tests" />
+    <MESSAGE value="added auth dialogs, search bar, add photo, and shared with me buttons" />
+    <MESSAGE value="added about route" />
+    <MESSAGE value="fixed about background spacing and double toolbar" />
+    <MESSAGE value="removed links underlines" />
+    <MESSAGE value="phase 2 frontend" />
+    <MESSAGE value="added snapshots and background image" />
+    <MESSAGE value="backend setup" />
+    <MESSAGE value="gitignore update" />
+    <MESSAGE value="Revert &quot;gitignore update&quot;&#10;&#10;This reverts commit 51380e5" />
+    <MESSAGE value="gitignore upd" />
+    <MESSAGE value="change caption integration" />
+    <MESSAGE value="change caption" />
+    <MESSAGE value="changed db config" />
+    <MESSAGE value="fixed config error" />
+    <MESSAGE value="db config" />
+    <MESSAGE value="last commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="last commit" />
+    <option name="PRESELECT_EXISTING_CHANGELIST" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/client/src/components/CaptionDialog.test.js</url>
+          <line>59</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app/controllers/home_controller.py</url>
+          <line>156</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="50" />
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>Caption.query.filter(Caption.owned_photo_id.in_(list(map(lambda o: o.id, ids)))).filter(Caption.text.contains(text)).all()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string />
+        <language-id>JavaScript</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string />
+        <language-id>JavaScript</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string />
+        <language-id>JavaScript</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string />
+        <language-id>JavaScript</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string />
+        <language-id>JavaScript</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string />
+        <language-id>JavaScript</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string />
+        <language-id>JavaScript</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>Response(message, status=409, mimetype='application/text')</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Response(message, status=409, mimetype='application/text').data</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>original_caption</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>original_caption[0]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>re.search('\s\|.+', original_caption)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>SharedPhoto.query.filter_by(owned_photo_id=owned_photo.id).first()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>file</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>file.read()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>file.mode()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/node_modules/react-material-ui-form-validator/lib/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/containers/SharedWithMeContainer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="73" column="6" selection-start-line="73" selection-start-column="6" selection-end-line="73" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/shared_with_me_controller.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1190">
+          <caret line="85" column="23" selection-start-line="85" selection-start-column="23" selection-end-line="85" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/components/AddPhotoDialog.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1598">
+          <caret line="102" column="27" selection-start-line="102" selection-start-column="27" selection-end-line="102" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/components/CaptionDialog.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.aws/s3Credentials.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.aws/config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.aws/credentials">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/owned_photos_controller.py" />
+    <entry file="file://$PROJECT_DIR$/app/controllers/photos_controller.py" />
+    <entry file="file://$PROJECT_DIR$/app/controllers/shared_photos_controller.py" />
+    <entry file="file://$PROJECT_DIR$/client/src/containers/HomeContainer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="23" selection-start-line="4" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/auth_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-293">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/home_controller.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="93" column="96" selection-start-line="93" selection-start-column="96" selection-end-line="93" selection-end-column="96" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/components/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="41" column="14" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/lib/app/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/photos_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="12" column="69" selection-start-line="12" selection-start-column="69" selection-end-line="12" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/owned_photos_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/caption_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/shared_photos_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="22" selection-start-column="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/comments_controller.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_comments.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/comments_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="51" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/factories.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17">
+          <caret line="56" column="30" selection-start-line="56" selection-start-column="30" selection-end-line="56" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.aws/dbCredentials.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="36" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="12" column="52" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" column="15" lean-forward="true" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/components/AppToolbar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="468" column="15" selection-start-line="468" selection-start-column="15" selection-end-line="468" selection-end-column="15" />
+          <folding>
+            <element signature="e#1152#3383#0" />
+            <element signature="e#1167#1210#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/components/Search.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/containers/CommentsDialogContainer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="44" column="10" selection-start-line="44" selection-start-column="10" selection-end-line="44" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/components/ShareDialog.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/components/PhotoGallery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3723">
+          <caret line="231" column="26" selection-start-line="231" selection-start-column="26" selection-end-line="231" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/components/CommentsDialog.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3757">
+          <caret line="225" column="87" selection-start-line="225" selection-start-column="87" selection-end-line="225" selection-end-column="87" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/components/CommentsDialog.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="46" column="19" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/caption_controller.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="3" column="75" selection-start-line="3" selection-start-column="75" selection-end-line="3" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/auth_controller.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="103" column="5" selection-start-line="103" selection-start-column="5" selection-end-line="103" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/components/AuthDialog.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="39" column="2" selection-start-line="39" selection-start-column="2" selection-end-line="39" selection-end-column="2" />
+          <folding>
+            <element signature="e#32#70#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/components/Home.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/components/Comment.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/components/PhotoGallery.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="202" column="6" selection-start-line="202" selection-start-column="6" selection-end-line="202" selection-end-column="6" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/components/AppToolbar.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="50" column="106" selection-start-line="50" selection-start-column="106" selection-end-line="50" selection-end-column="106" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/components/AuthDialog.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="71" column="14" selection-start-line="71" selection-start-column="8" selection-end-line="71" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/components/AddPhotoDialog.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="46" column="7" lean-forward="true" selection-start-line="46" selection-start-column="7" selection-end-line="46" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
